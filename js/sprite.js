@@ -22,7 +22,6 @@ class Sprite {
         if (newY >= 0 && newY + this.height <= canvas.height) {
             this.y = newY;
         }
-        
     }
 
     collidesWith(sprite) {
@@ -34,3 +33,7 @@ class Sprite {
         );
     }
 }
+
+
+
+
